@@ -34,7 +34,7 @@ Assets/
 ├── ScriptableObjects/
 │ └── Cards/ # 카드 데이터 정의
 ├── Prefabs/ # 카드, UI, 효과 등 프리팹
-└── Scenes/ # 게임 씬
+└── Scenes/ # 게임 씬 / 로비 씬
 ```
 
 ## 실행 방법
