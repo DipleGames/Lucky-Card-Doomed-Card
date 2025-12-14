@@ -15,14 +15,10 @@
 
 ## 기술 스택
 
-- **Engine**: Unity
+- **Engine**: Unity2022.3.14f1
 - **Language** : C#
-- **멀티플레이어**: Photon PUN2 기반 구조 
+- **IDE** : Visual Studio Code
 
-## 사용된 기술 및 디자인패턴
-- **싱글톤 패턴**
-- **옵저버 패턴**
-- **카드 시스템**: ScriptableObject를 활용한 데이터 중심 설계
 ---
 
 ## 프로젝트 구조
@@ -49,11 +45,4 @@ Assets/
 - 카드 능력치 및 조합 시너지 밸런스 조정  
 - 전투 연출 및 이펙트 강화  
 - 덱 구성 시스템 추가  
-
-## 개발자
-
-| 황은중 | Unity C# 기반 전략 게임 개발자<br>시스템 설계와 전투 구조 구현을 담당 |
-
-- 포트폴리오: https://www.notion.so/182fb37d62d180458cfdf44070e77d54?p=1e8fb37d62d180028519f30f6a4f2289&pm=c
-- 이메일: hej7866@naver.com
 
