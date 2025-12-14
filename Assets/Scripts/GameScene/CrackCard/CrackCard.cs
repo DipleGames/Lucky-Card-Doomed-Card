@@ -8,8 +8,8 @@ public class CrackCard : ScriptableObject
     public Sprite icon;
     public CrackCardType cardType;
 
-    public SpellEffectType spellEffect; // 항상 보이지만, Spell일 때만 사용
-    public TrapEffectType trapEffect;   // 항상 보이지만, Trap일 때만 사용
+    public SpellEffectType spellEffect; 
+    public TrapEffectType trapEffect;   
 }
 
 public enum CrackCardType
@@ -20,7 +20,7 @@ public enum CrackCardType
 
 public enum SpellEffectType
 {
-    None,           // <-- 기본값, 선택 안 된 상태
+    None,           
     DoubleScore,
     HeartOfTheBeast,
     Gamble
@@ -28,7 +28,7 @@ public enum SpellEffectType
 
 public enum TrapEffectType
 {
-    None,           // <-- 기본값, 선택 안 된 상태
+    None,           
     SwapScoresIfLosing,
     BlockOpponentScore
 }
